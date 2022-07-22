@@ -1,0 +1,66 @@
+1.  True
+	False
+	
+2. and, or, not
+
+3. 
+condition(X)	condition(Y)	NOT X	X AND Y 	X OR Y
+false				false		 true	 false		false
+false				true		 true	 false		 true
+true				false		 false	 false		 true
+true				true		 false	 true		 true
+
+
+4.  (5 > 4) and (3 == 5) - false
+	not (5 > 4) - false
+	(5 > 4) or (3 == 5) - true
+	not ((5 > 4) or (3 == 5)) - false
+	(True and True) and (True == False) - false
+	(not False) or (not True) - true
+	
+5. <, >, ==, !=, >=, <=
+
+6. '=' is used to assign value to the variable whereas '==' is used to check if the those values are equal or not.
+	e.g.- f = 56 is example of '='
+		  5 == 5 is exapmle of '=='
+		  
+7.	spam = 0
+	if spam == 10:
+		print('eggs')
+	elif spam > 5:
+		print('bacon')
+	else:
+		print('ham')
+	print('spam')
+	print('spam')
+	
+8.
+if spam == 1:
+	print("Hello")
+elif spam == 2:
+	print("Howdy")
+else:
+	print("Greetings!")
+	
+9. ctrl+C
+
+10. The main difference between both the statements is that when break keyword comes,
+it terminates the execution of the current loop and passes the control over the next 
+loop or main body, whereas when continue keyword is encountered, it skips the current
+iteration and executes the very next iteration in the loop.
+
+11. 
+range(10) generates a list of 10 values. In this 10 describe the point to which values will be generated.
+In range(0, 10), 0 describe as a staring point from which values will be generated and in range(0, 10, 1),
+1 describe the intervals between each value.
+
+12. 
+for i in range(1, 11):
+	print(i)
+	
+i = 1
+while i<11:
+	print(i)
+	i += 1
+	
+13. spam.bacon()
